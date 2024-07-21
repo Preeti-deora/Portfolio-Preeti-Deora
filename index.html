@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preeti Deora</title>
+    <script src="https://kit.fontawesome.com/2363421a0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header class="header">
+          <a href="#" class="logo">Portfolio</a>
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
+          <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#achievements">Achievements</a>
+          </nav>
+    </header>
+    <section class="home" id="home">
+         <div class="home-content">
+            <h1>Hi, Myself</h1>
+            <h1>Preeti Deora</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Hello, I'm a second-year undergraduate with a passion for frontend development and programming. Delving into the realm of data science, I'm expanding my skill set.</p>
+            <div class="social-media">
+                <a href="http://www.linkedin.com/in/preeti-deora"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://github.com/Preeti-deora"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:preetideora13@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+                <a href="tel:9964225906"><i class="fa-solid fa-phone"></i></a>
+                <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+             <a href="./images/NewResume.pdf" class="btn">Download CV</a>
+         </div>
+         <div class="home-img">
+            <img src="./images/preetipic2.jpg" alt="">
+         </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/portfolio_second_image2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>ME</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello, I'm Preeti Deora, currently in my second year of undergraduate studies, specializing in Artificial Intelligence and Data Science. With a deep-rooted passion for frontend development and programming, I'm actively exploring the cutting-edge realms of AI and data. <span class="extra-content" id="extraContent" style="display: none;">Renowned for my innovative mindset, I approach challenges with creativity and enthusiasm. Alongside my technical expertise, I possess strong management, communication, and teamwork skills, which enable me to lead projects effectively and foster collaborative environments. Let's embark on a journey of innovation and discovery together.</span></p>
+            <a  class="btn" id="readMoreBtn" onclick="toggleExtraContent()">Read more</a>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>MBM University, Jodhpur</h3>
+                <p>Degree: Bachelor of Engineering in Artificial Intelligence and Data Science</p>
+                <p>Year of Graduation: 2026</p>
+            </div>
+            <div class="education-item">
+                <h3>SET PU College</h3>
+                <p>Senior Secondary School</p>
+                <p>Year of Graduation: 2021</p>
+                <p>Result: 98.33%</p>
+            </div>
+            <!-- Add more education items as needed -->
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Frontend Development</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>C</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>C++</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Data Structures & Algorithms</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Database Management Systems (DBMS)</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+    <secion class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span> </h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/Solacity.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mental Health Website</h4>
+                    <p>HTML, CSS, JavaScript, Python Ai chatbot</p>
+                    <a href="https://github.com/Preeti-deora/SITE2024"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/drumkit.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Drum kit</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/Preeti-deora/DRUM-KIT"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/netflixteaser.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Netflix UI/UX Clone</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/Preeti-deora/NETFLIX-UI-UX-CLONE"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/DICE.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Dice Game</h4>
+                    <p>HTML, CSS, JavaSript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Hangman.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Hangman Game</h4>
+                    <p>Python</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </secion>
+     <!-- <section class="services" id="services">
+     <h2 class="heading">My <span>Services</span> </h2>
+      <div class="services-container">
+        <div class="services-box">
+             <i class="fa-solid fa-code"></i>
+             <h3>Web Development</h3>
+             <p>just any text ghjklkjhgfdsxcvbnkjhrdcvbnmluytdcvbnfgdfhvhgbyudufbuggdutfghvhj</p>
+              <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Video Editing</h3>
+            <p>just any text ghjklkjhgfdsxcvbnkjhrdcvbnmluytdcvbnfgdfhvhgbyudufbuggdutfghvhj</p>
+             <a href="#" class="btn">Read More</a>
+       </div>
+       <div class="services-box">
+        <i class="fa-solid fa-android"></i>
+        <h3>Android Development</h3>
+        <p>just any text ghjklkjhgfdsxcvbnkjhrdcvbnmluytdcvbnfgdfhvhgbyudufbuggdutfghvhj</p>
+         <a href="#" class="btn">Read More</a>
+   </div>
+      </div>
+    </section>  -->
+    <!-- <section class="contact" id="contact">
+        <div class="heading">Contact <span>Me</span> </div>
+        <form action="#">
+           <div class="input-box">
+                 <input type="text" placeholder="Full Name">
+                 <input type="mail" placeholder="Email Address">
+           </div>
+           <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+           </div>
+           <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+           <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section> -->
+        
+        <section class="achievements" id="achievements">
+        <h2 class="heading">Achievements</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="images/flipkart.png" alt="Achievement 1">
+                <div class="slide-description">
+                    <h3>Flipkart Runaway</h3>
+                    <p>Selected as one of the top 200 finalists out of 30,000 female participants in the Flipkart Runaway competition</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/SITEC.png" alt="Achievement 2">
+                <div class="slide-description">
+                    <h3>SITE Hackathon</h3>
+                    <p>Successfully Participated in a National Level Hackathon</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/sitei.jpg" alt="Achievement 2">
+                <div class="slide-description">
+                    <h3>SITE Hackathon</h3>
+                    <p>Successfully Participated in a National Level Hackathon</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/esrc.png" alt="Achievement 3">
+                <div class="slide-description">
+                    <h3>Robotics</h3>
+                    <p>Achieved success in robotics competitions, notably creating functional robots including a line follower, and a two link robotic arm for playing Tic Tac Toe</p>
+                </div>
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Preeti Deora | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i> </a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.und.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
